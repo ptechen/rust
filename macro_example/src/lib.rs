@@ -1,5 +1,6 @@
 pub mod scanline;
 pub mod map;
+mod html_list;
 
 #[cfg(test)]
 mod tests {
