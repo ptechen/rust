@@ -1,5 +1,5 @@
 [package]
-name = "arc"
+name = "arc_thread"
 version = "0.1.0"
 authors = ["taochen"]
 edition = "2018"

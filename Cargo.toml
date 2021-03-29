@@ -1,2 +1,2 @@
 [workspace]
-members = ["macro_example", "hello", "arc"]
+members = ["macro_example", "hello", "arc_thread", "arc_mutex"]
