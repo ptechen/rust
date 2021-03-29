@@ -1,10 +1,13 @@
-use hello_macro::HelloMacro;
+#[macro_use]
 use hello_macro_derive::HelloMacro;
+pub trait HelloMacro {
+    fn hello_macro() ->String;
+}
 
 #[derive(HelloMacro)]
-struct Pancakes;
+struct Hello;
 
 fn main() {
-    let s = Pancakes::hello_macro();
+    let s = Hello::hello_macro();
     println!("{}", s)
 }
