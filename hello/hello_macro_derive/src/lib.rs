@@ -11,7 +11,7 @@ use crate::proc_macro::TokenStream;
 use quote::quote;
 use syn;
 
-#[proc_macro_derive(HelloMacro)]
+#[proc_macro_derive(HelloMacro, attributes(HelloWorldName))]
 pub fn hello_macro_derive(input: TokenStream) -> TokenStream {
     // 构建 Rust 代码所代表的语法树
     // 以便可以进行操作
